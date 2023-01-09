@@ -4,7 +4,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
+      - name: checkout repo
         uses: actions/checkout@v3
       - name: List files in the repository
         run: make help
